@@ -7,6 +7,28 @@
  * License:     GNU General Public License v2 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Tags:        A-Level, courses, iwpdev, courses themes
- * Text Domain: a-level
+ * Text Domain: alevel
  * Version:     1.0.0
  */
+
+
+.reviews-items p,
+.medea-item p,
+.accardion p {
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+	box-orient: vertical;
+}
+
+.sr-only {
+	position: absolute;
+	left: -10000px;
+	top: auto;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.hidden {
+	display: none;
+}

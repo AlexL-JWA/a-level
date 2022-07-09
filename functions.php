@@ -2,8 +2,10 @@
 /**
  * Function themes.
  *
- * @package iwpdev/alevel.
+ * @package iwpdev/alevel
  */
+
+use Alevel\Main;
 
 define( 'ALEVEL_VERSION', '1.0.0' );
 
