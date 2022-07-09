@@ -1,0 +1,30 @@
+{
+  "name": "iwpdev/alevel",
+  "description": "Wordpress theme for A-Level courses",
+  "type": "wp-theme",
+  "homepage": "https://i-wp-dev.com/",
+  "autoload": {
+    "psr-4": {
+      "Alevel\\": "src/php"
+    }
+  },
+  "prefer-stable": true,
+  "authors": [
+    {
+      "name": "alexl",
+      "email": "iwpdev@outlook.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require-dev": {
+    "roave/security-advisories": "dev-latest",
+    "squizlabs/php_codesniffer": "^3.5",
+    "phpcompatibility/php-compatibility": "^9.3",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "wp-coding-standards/wpcs": "^2.3",
+    "php-coveralls/php-coveralls": "^2.4"
+  },
+  "require": {
+    "htmlburger/carbon-fields": "^3.3"
+  }
+}
